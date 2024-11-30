@@ -18,7 +18,7 @@ driver.implicitly_wait(3)  # Adjust the wait time as needed
 search_box = driver.find_element(By.NAME, "q")
 
 # Enter a search query
-search_query = "Selenium Python"
+search_query = "Bit bucket"
 search_box.send_keys(search_query)
 
 # Submit the search
